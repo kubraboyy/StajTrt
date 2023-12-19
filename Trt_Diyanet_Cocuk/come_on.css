@@ -1,0 +1,236 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #3E50AF;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+
+
+.container {
+    max-width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    padding: 20px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.first_logo {
+    margin: auto;
+    max-width: 100%; 
+}
+
+.transparent-container {
+    background: url(backvocal.png) no-repeat;
+    background-position: bottom left;
+    border-radius: 15px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #8B96CF;
+    background-size: 100%; 
+    
+}
+
+.video-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.video-text h3, .video-text h5 {
+    margin: 0;
+}
+
+.video_text-2 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 20px; 
+}
+
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shedule_block {
+    
+    height: 140px;
+    width: 235px; 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+.shedule_blocks {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+    margin-top: 50px; 
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.shedule-text {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5px; 
+}
+
+.shedule_time {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+.text_inner {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .video-text {
+        padding: 10px;
+    }
+
+    .video_text-2 {
+        margin-top: 10px;
+    }
+
+    .shedule_blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shedule_block {
+        width: 80%;
+    }
+}
+
+
+.shedule_block-1{
+    background-color:#C188B3;
+}
+
+.shedule_block-2{
+    background-color:#98A8D2;
+}
+
+.shedule_block-3{
+    background-color:#99C39F;
+}
+
+.shedule_block-4{
+    background-color:#F2C996;
+}
+
+.programlar{
+    background-color:#5370AE;
+    text-align: center; 
+    display: inline;
+    width: 100%;
+    height: 30px;
+    font-size: 42px;
+    font-family: 'Kay Pho Du', serif;
+    padding: 2px 25px 2px 25px;
+    letter-spacing: 4px;
+    border-radius: 15px;
+}
+
+.ikinci_section{
+    margin-top: 100px;
+}
+
+.program_blocks{
+    border-radius: 20px;
+    width: 235px;
+    height: 320px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.program_reception{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+}
+
+.reception_text{
+    color: #000;
+}
+
+.text-p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; 
+    box-sizing: border-box;
+}
+
+.block_1{
+    background-color:#98A8D2;
+}
+.block_2{
+    background-color:#C188B3;
+}
+.block_3{
+    background-color:#99C39F;
+}
+.block_4{
+    background-color:#F2C996;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
